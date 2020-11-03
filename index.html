@@ -6,7 +6,19 @@
     </head>
     
     <body>
+        
         <div style="background-image: url('wallpaper.jpg'); background-size: cover;">
+            <div style="position: absolute; right: 150px;
+            width: 200px;
+            height: 120px;"><audio controls autoplay>
+            <source src="AUDIO.mp3" type="audio/mp3" />
+            Your browser does not support the <audio> element.
+            </audio></div>
+            <div style="position: absolute; right: 150px; top: 70px;
+            width: 50px;
+            height: 50px;">
+            <button style="height: 50px; width: 50px; background:url('vid.jpg') no-repeat; background-size:contain;  " onclick="window.location.href='videos.html'"></button>
+            <H5 style="margin-top: 0%; margin-bottom: 0%; line-height: 70%; color: #f1f1f1;">VIDEOS</H5></div> 
     <h1 style="color: #f1f1f1;">Biography </h1>
     <br style="width: 100%; height: 2px;">
   
@@ -57,5 +69,28 @@
     <p style="line-height: 0%;"> and biology to make the Detroit Become Human a reality.</p>
     </div>
     </div>
+    <div style="background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
 
+    
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: left;">
+    <form action="http://example.com/cgiscript.pl" method="post">
+        <p>
+        <label for="username">username: </label>
+        <input type="text" id="username"><br />
+        <label for="email">email: </label>
+        <input type="text" id="email"><br>
+        <label for="comment">comment: </label>
+        <input style="height:200px;width: 250px;font-size:11pt;" type="text" id="comment"><br>
+        <input type="submit" value="send"> <input type="reset">
+        </p>
+       </form>
+    </div>
+    
     </body></div></html>
